@@ -1,0 +1,3 @@
+rootProject.name = 'GameOfThronesApp'
+
+include ':app'
