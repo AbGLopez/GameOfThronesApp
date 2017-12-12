@@ -5,7 +5,7 @@ import { Actions } from 'react-native-router-flux'
 export default class Screen1 extends Component {
 
 	_goScreen2() {
-		Actions.screen2({ texto: 'texto de prueba'})
+		Actions.screen2({ texto: 'texto de prueba', title: 'titulo navigation'})
 	}
 
     render() {
